@@ -1,0 +1,5 @@
+<launch>
+    <node name="publisher" pkg="rmp01" type="publisher.py" output="screen"> </node>
+    <node name="subscriber" pkg="rmp01" type="turtle_command_publisher.py" output="screen"> </node>
+    <node name="turtle_1" pkg="turtlesim" type="turtlesim_node" output="screen"> </node>
+</launch>
